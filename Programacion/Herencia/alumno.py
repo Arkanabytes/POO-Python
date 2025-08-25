@@ -1,13 +1,14 @@
 from persona import Persona
 class Alumno(Persona):
-    def __init__(self, run , nombre, paterno, materno, fono, correos, direccion, numMatricula, carrera, asignaturas):
-        super().__init__( nombre, paterno, materno, fono, correos, direccion)
+    def __init__(self,run,nombre,paterno,materno,fono,correos,direccion,numMatricula,carrera,asignaturas):
+        super().__init__(run,nombre,paterno,materno,fono,correos,direccion)
         self.__numMatricula = numMatricula
         self.__carrera = carrera
         self.__asignaturas = asignaturas
         
-    def tomaCarga(a):
+    def tomarCarga(a):
         pass
-consuelo = Alumno("321223344", "Consuelo", "Jaramillo", "Contreras",13345, "consuelo@incapmail.cl", "puente alto", "193939954", "Informatica", "POO")
-        
     
+    
+consuelo = Alumno("32132132","Consuelo","Pinto","Toro",321321,"consuelo.pinyo@inacapmail.cl","puente alto","23423","Informatica","POO")
+
