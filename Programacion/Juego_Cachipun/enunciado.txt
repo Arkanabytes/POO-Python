@@ -1,0 +1,3 @@
+Diseñar un programa en python que permita jugar Cachipun entre un usuario y
+la computadora. Cada jugador deb elegir entre Piedra, Papel o Tijeras, y el programa
+determinara el resultado de la partida.
