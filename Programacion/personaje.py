@@ -13,8 +13,7 @@ class Personaje:
         return self.__nombre
     #metodo get para acceder a un atributo privado o protegido
     def setNombre(self, nombre):
-        self.__nombre = nombre
-        
+        self.__nombre = nombre 
     #otros metodos definidos en el diagrama de clases
     def atacar(self, enemigo):
         pass 
