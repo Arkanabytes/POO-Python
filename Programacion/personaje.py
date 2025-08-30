@@ -1,4 +1,5 @@
 class Personaje:
+    
     #Constructor de la clase, primera clase que se ejecuta al instanciar un objeto
     def __init__(self, nombre, nivel, salud, energia, raza):
         self.__nombre = nombre
