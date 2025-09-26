@@ -19,3 +19,12 @@ print(datos)
 cursor.execute("Select * from clientes where cli_nombre = 'Aldo'")
 datos = cursor.fetchmany(size=2)
 print(datos)
+
+#Insert
+
+sql = "Insert into clientes values set cli_nombre ={}, cli_apellido = {}, cli_direccion= {}".format ("Javier", "Jaramillo", "Puente Alto")
+print(sql)
+cursor.execute(sql)
+con.commit()
+
+con.close()
