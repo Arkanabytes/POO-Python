@@ -22,3 +22,39 @@ print(lista)
 # Sacar el elemento " Mundo" con .pop
 elemento_sacado = lista.pop(5)# -> saca el elemento publicado en el index 2
 print(elemento_sacado)
+
+
+
+
+# Otra solucion
+import os
+os.system('cls')
+
+
+class Libro:
+    def __init__(self,isbn:str,titulo:str,autor:str,cant_paginas:int):
+        self.isbn = isbn
+        self.titulo = titulo
+        self.autor = autor
+        self.cant_paginas = cant_paginas
+        
+    #Metodos
+    def imprimir_info(self):
+        print("-----------------------------")
+        print("Titulo: ",self.titulo)
+        print("Autor: ",self.autor)
+        print("Cantidad Paginas: ",self.cant_paginas)
+        
+    def cambiar_titulo(self,nuevo_titulo:str):
+        self.titulo = nuevo_titulo
+        
+libro1 = Libro("1","Papelucho","Marcela Paz",100)
+libro2 = Libro("2","La llamada de Cthulhu","HP Lovecraft",45)
+libro3 = Libro("3","Harry Potter y la Camara Secreta","JK Rowling",100)
+
+libros = [libro1,libro2,libro3]
+
+libro1.cambiar_titulo("Mujercita")
+
+for libro in libros:
+    libro.imprimir_info()
