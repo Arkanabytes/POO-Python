@@ -108,7 +108,4 @@ print(mostrarTodos())
 print(mostrarParcial(0))
 print(mostrarParticular(0))
 
-print(mostrarTodos())
-print(mostrarParcial(0))
 
-print(mostrarParticular(0))
