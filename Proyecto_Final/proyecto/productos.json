@@ -1,0 +1,22 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Sandwich Italiano",
+            "precio": 2500,
+            "categoria": "Comida"
+        },
+        {
+            "id": 2,
+            "nombre": "Café Americano",
+            "precio": 1500,
+            "categoria": "Bebida"
+        },
+        {
+            "id": 3,
+            "nombre": "Ensalada César",
+            "precio": 3000,
+            "categoria": "Comida"
+        }
+    ]
+}
