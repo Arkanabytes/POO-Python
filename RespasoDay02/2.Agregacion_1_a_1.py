@@ -29,11 +29,7 @@ class Personaje:
         #Con este cambio podemos acceder al arma desde el mismo objeto
         if self.arma:
             print(f"Has atacado con {self.arma.ataque} puntos de daño")
-    
-
-
-
-        
+      
 #---------------------------------------------------
 
 # Para la agregación se puede definir que un objeto es agregado en otro
