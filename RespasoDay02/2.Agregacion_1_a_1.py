@@ -6,7 +6,6 @@ os.system('cls')
 #¿Que pasaria si no le pasamos arma? ¿Es necesario que tenga una?
 # def __init__(self,nombre,vida, arma = None)
 
-
 class Arma:
     def __init__(self,nombre,ataque):
         self.nombre = nombre
