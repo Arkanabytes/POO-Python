@@ -9,7 +9,6 @@ os.system('cls')
 lista = [1, 2, 3]
 #        0  1  2
 
-
 # Read- Acceder a un elmento
 print(lista[2])# -> Accedo al primer elemento de la lista
 # List index out of range
