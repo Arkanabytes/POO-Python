@@ -1,7 +1,6 @@
 import os
 os.system('cls')
 
-
 class Personaje:
     # Constructor
     def __init__(self,nombre:str,vida:int):
