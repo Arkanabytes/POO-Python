@@ -24,7 +24,6 @@ class Mago(Personaje):
 
 #---------------------------------------------------
 
-
 mago = Mago("Gandalf",100,100)
 #Podemos acceder a los metodos de Personaje desde Mago
 mago.info()
