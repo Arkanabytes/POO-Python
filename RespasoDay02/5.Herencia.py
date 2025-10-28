@@ -13,10 +13,7 @@ class Personaje:
         print("---------------")
         print("Nombre: ",self.nombre)
         print("Vida: ",self.vida)
-    
-
-        
-        
+            
 # Herencia
 # La clase Mago se deriva de Personaje
 class Mago(Personaje):
